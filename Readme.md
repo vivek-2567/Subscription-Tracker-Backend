@@ -87,6 +87,10 @@ ARCJET_KEY=<arcjet key>
 npm run dev
 ```
 
+## 🌐 Deployment
+
+The backend is deployed and can be accessed at [https://subscription-tracker-backend.onrender.com](https://subscription-tracker-backend.onrender.com)
+
 ## 📚 API Documentation
 
 ### Authentication
