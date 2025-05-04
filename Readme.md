@@ -74,10 +74,12 @@ npm install
 
 3. Create a `.env` file in the root directory with the following variables:
 ```env
-PORT=3000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=7d
+NODE_ENV=<production/dev>
+PORT=5500
+DB_URI=<your mongo db uri>
+JWT_SECRET=
+JWT_EXPIRES_IN="1d"
+ARCJET_KEY=<arcjet key>
 ```
 
 4. Start the development server

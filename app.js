@@ -22,15 +22,11 @@ app.use("/api/v1/auth", authRoutes)
 app.use("/api/v1/users", userRoutes)
 app.use("/api/v1/subscriptions", subscriptionRoutes)
 
-app.get("/", (req, res) => {
-	res.send("welcome to the subscription tracker api")
-})
-
 // Error middleware should be the last middleware
 app.use(errorMiddleware)
 
 app.listen(PORT, async () => {
-	console.log(`Server running on http://localhost:${PORT}`)
+	console.log(`Server running on ${PORT} PORT`)
 
 	await connectToDatabse()
 })
